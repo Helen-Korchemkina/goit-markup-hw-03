@@ -11,6 +11,7 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
@@ -29,12 +30,12 @@
         <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
       </ul>
     </header>
-    <!--buttons-->
-    <main>
-            <section>
+        <main>
+            <section class="potfolio">
+              <div class="container">
               <h1 hidden>Примеры работ</h1>
       <!--filters-->
-      <ul>
+      <ul class="filters">
         <li>
           <button class="button" type="button">Все</button>
         </li>
@@ -64,19 +65,16 @@
           <h2>Постер New Orlean vs Golden Star</h2>
           <p>Дизайн</p></a>
         </li>
-
         <li><a href="">
           <img src="images/page2/img03.jpg" alt="логотип рыбного ресторана" width="370" />
           <h2>Ресторан Seafood</h2>
           <p>Приложение</p></a>
         </li>
-
         <li><a href="">
           <img src="images/page2/img04.jpg" alt="наушники" width="370" />
           <h2>Проект Prime</h2>
           <p>Маркетинг</p></a>
         </li>
-
         <li><a href="">
           <img src="images/page2/img05.jpg" alt="две коробки" width="370" />
           <h2>Проект Boxes</h2>
@@ -107,8 +105,10 @@
           <p>Приложение</p></a>
         </li>
       </ul>
+      </div>
+      </section>
     </main>
-</section>
+
     <!--footer-->
     <footer class="footer">
       <a class="footer-logo" href="index.html"><span class="part-logo">Web</span>Studio</a>
