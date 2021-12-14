@@ -27,14 +27,22 @@ p {
 ul {
   list-style: none;
 }
-/*header*/
-.header a {
-  text-decoration: none;
+.section {
+  padding: 94px 15px;
 }
 .container {
   margin: 0 auto;
   width: 1200px;
 }
+/*header*/
+.header a {
+  text-decoration: none;
+}
+.header {
+  margin: 0 auto;
+  width: 1200px;
+}
+
 /*logo*/
 .logo {
   color: var(--logo-black-color);
@@ -73,13 +81,12 @@ ul {
   background-color: var(--background-grey-color);
   color: var(--second-text-color);
   text-align: center;
-  padding-bottom: 94px;
+  padding: 200px 15px;
 }
 .hero-title {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-
   letter-spacing: 0.06em;
   text-transform: uppercase;
   margin-bottom: 30px;
@@ -94,8 +101,9 @@ ul {
   line-height: 1.71;
 }
 .excellence {
-  padding-bottom: 94px;
+  padding-bottom: 0px;
 }
+
 /*what we do*/
 .doing h2 {
   font-size: 36px;
@@ -103,16 +111,13 @@ ul {
   text-align: center;
   margin-bottom: 50px;
 }
-.doing {
-  padding-bottom: 94px;
-}
+
 /*our team*/
 .our-team {
   background-color: var(--background-light-color);
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
-  padding-bottom: 94px;
 }
 .our-team h2 {
   font-weight: 500;
@@ -139,6 +144,7 @@ ul {
 .address a {
   font-weight: 400;
   line-height: 1.71;
+  font-style: normal;
 }
 /*buttons*/
 .button {
@@ -178,7 +184,4 @@ ul {
 .work-examples p {
   font-size: 16px;
   line-height: 1.9;
-}
-.potfolio {
-  padding: 94px 0;
 }
