@@ -3,14 +3,16 @@
   --second-text-color: #ffffff;
   --title-text-color: #212121;
   --accent-color: #2196f3;
+  --button-accent-color: #188ce8;
   --background-grey-color: #2f303a;
   --background-light-color: #f5f4fa;
   --logo-black-color: #000000;
+  --background-portfolio: #eeeeee;
 }
 body {
   background-color: var(--second-text-color);
   color: var(--primary-text-color);
-  font-family: Roboto;
+  font-family: 'Roboto', sans-serif;
   font-size: 14px;
   letter-spacing: 0.03em;
 }
@@ -41,12 +43,13 @@ ul {
 .header {
   margin: 0 auto;
   width: 1200px;
+  background-color: var(--second-text-color);
 }
 
 /*logo*/
 .logo {
   color: var(--logo-black-color);
-  font-family: Raleway, cursive;
+  font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -146,6 +149,10 @@ ul {
   line-height: 1.71;
   font-style: normal;
 }
+.footer-address:focus,
+.footer-address:hover {
+  color: var(--button-accent-color);
+}
 /*buttons*/
 .button {
   color: var(--title-text-color);
@@ -167,11 +174,20 @@ ul {
 }
 .button:hover,
 .button:focus,
-.button.primary {
+.button.primary,
+.button.all {
   background-color: var(--accent-color);
   color: var(--second-text-color);
 }
+.button.primary:hover,
+.button.primary:focus {
+  background-color: var(--button-accent-color);
+}
+
 /*work-examples*/
+.portfolio {
+  background-color: var(--background-portfolio);
+}
 .filters {
   margin-bottom: 34px;
 }
@@ -183,5 +199,9 @@ ul {
 }
 .work-examples p {
   font-size: 16px;
-  line-height: 1.9;
+  line-height: 1.88;
+  color: var(--primary-text-color);
+}
+.work-examples a {
+  text-decoration: none;
 }
